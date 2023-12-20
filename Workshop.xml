@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jewelryworkshop>
+
+	<materials>
+		<material ID = "1" name = "White gold 585" price_per_gram = "3500"></material>
+		<material ID = "2" name = "Diamond (0.07 carat)" price_per_gram = "8000"></material>
+		<material ID = "3" name = "Yellow gold 585" price_per_gram = "3500"></material>
+		<material ID = "4" name = "Fianit (1 piece)" price_per_gram = "30"></material>
+		<material ID = "5" name = "Sterling silver" price_per_gram = "65"></material>
+		<material ID = "6" name = "Corundum" price_per_gram = "100"></material>
+		<material ID = "7" name = "Diamond (0.02 carat)" price_per_gram = "37000"></material>
+		<material ID = "8" name = "Topaz (1 carat)" price_per_gram = "2000"></material>
+		<material ID = "9" name = "White pearls (1 piece)" price_per_gram = "1000"></material>
+		<material ID = "10" name = "Gold-plated 925 silver" price_per_gram = "500"></material>
+		<material ID = "11" name = "Amber" price_per_gram = "150"></material>
+		<material ID = "12" name = "Amethyst" price_per_gram = "2000"></material>
+	</materials>
+
+	<products>
+		<product ID ="1" name ="White gold ring with diamonds" type="ring" weight ="0.89" price ="7990">
+			<materials_ID>
+				<material_ID ID ="1"></material_ID>
+				<material_ID ID ="2"></material_ID>
+			</materials_ID>
+		</product>
+		<product ID ="2" name ="White gold earrings with diamonds and corundum" type ="earrings" weight ="2.88" price ="40000">
+			<materials_ID>
+				<material_ID ID ="1"></material_ID>
+				<material_ID ID ="7"></material_ID>
+				<material_ID ID ="6"></material_ID>
+			</materials_ID>
+		</product>
+		<product ID ="3" name ="Silver earrings with topaz" type="earrings" weight ="1.79" price ="5000">
+			<materials_ID>
+				<material_ID ID ="5"></material_ID>
+				<material_ID ID ="8"></material_ID>
+			</materials_ID>
+		</product>
+		<product ID ="4" name ="Golden necklace with pearls" type="necklace" weight ="1.68" price ="34000">
+			<materials_ID>
+				<material_ID ID ="3"></material_ID>
+				<material_ID ID ="9"></material_ID>
+			</materials_ID>
+		</product>
+		<product ID ="5" name ="Brooch made of gilded silver with amber and cubic zirconia" type = "brooch" weight ="5.85" price ="4600">
+			<materials_ID>
+				<material_ID ID ="10"></material_ID>
+				<material_ID ID ="11"></material_ID>
+				<material_ID ID ="4"></material_ID>
+			</materials_ID>
+		</product>
+		<product ID ="6" name ="Silver pendant with amethysts" type="pendant" weight ="1.54" price ="3000">
+			<materials_ID>
+				<material_ID ID ="5"></material_ID>
+				<material_ID ID ="12"></material_ID>
+			</materials_ID>
+		</product>
+	</products>
+
+	<customers>
+		<customer ID ="1" surname ="Alekseeva" name = "Christina" secname = "Ivanovna"></customer>
+		<customer ID ="2" surname ="Grigorieva" name = "Alexandra" secname = "Alexandrovna"></customer>
+		<customer ID ="3" surname ="Bazhenov" name = "Denis" secname = "Vladislavovich"></customer>
+		<customer ID ="4" surname ="Sotnikov" name = "Pavel" secname = "Dmitrievich"></customer>
+		<customer ID ="5" surname ="Grigoriev" name = "Erik" secname = "Sergeevich"></customer>
+	</customers>
+
+	<sale_events>
+		<sale_event ID ="1" date ="01.10.2022" customer_ID ="1">
+			<products_ID>
+				<product_ID ID="1"></product_ID>
+			</products_ID>
+		</sale_event>
+		<sale_event ID ="2" date ="11.10.2022" customer_ID ="2">
+			<products_ID>
+				<product_ID ID="2"></product_ID>
+			</products_ID>
+		</sale_event>
+		<sale_event ID ="3" date ="25.11.2022" customer_ID ="3">
+			<products_ID>
+				<product_ID ID="3"></product_ID>
+			</products_ID>
+		</sale_event>
+		<sale_event ID ="4" date ="15.01.2023" customer_ID ="4">
+			<products_ID>
+				<product_ID ID="4"></product_ID>
+				<product_ID ID="5"></product_ID>
+			</products_ID>
+		</sale_event>
+		<sale_event ID ="5" date ="03.02.2023" customer_ID ="5">
+			<products_ID>
+				<product_ID ID="6"></product_ID>
+			</products_ID>
+		</sale_event>
+	</sale_events>
+
+</jewelryworkshop>
